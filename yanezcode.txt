@@ -154,3 +154,27 @@ System.out.println("Total price is " + change);
                 }
                 else{
                     System.out.println("Out of option")
+
+    System.out.println("Enter a payment ");
+    pay = input.nextDouble();
+if(pay <=total){
+System.out.println("Not enough payment");
+}else{
+
+double change = pay - ftotal;
+System.out.println("Total price is " + change);
+	}
+
+if(choose==4) {
+             System.exit(0); //close program
+}else{
+         System.out.println("Choose 1 to 4 only!");
+order();
+}
+        
+}
+public static void main(String[] args) {
+order();
+	
+}
+}
